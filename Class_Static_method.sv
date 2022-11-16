@@ -20,3 +20,11 @@ module test();
                 end
 endmodule
 ~         
+/*         Result of the above code:
+            1
+#           1
+#           2
+#           2
+#           3
+#           3
+#  */
