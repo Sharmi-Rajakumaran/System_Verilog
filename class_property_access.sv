@@ -20,3 +20,14 @@ initial
   $display("Balance is %d", acnt_h.balance);
 end
 endmodule
+
+/*
+     Result for the above code
+# Balance is        5000
+# Balance is        5000
+# Balance is        5000
+# Balance is       15000
+# Balance is       15000
+# Balance is       15000
+
+*/
