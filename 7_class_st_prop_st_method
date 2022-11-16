@@ -23,6 +23,8 @@ initial
  end
 
 endmodule
+
+// In this program, only a is static and variable i is dynamic in nature.
 ~            
 
 /*
