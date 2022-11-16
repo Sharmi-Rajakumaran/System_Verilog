@@ -21,7 +21,7 @@ initial
         end
 endmodule
 
-// In this program, the function does not have a static method hence all the variables by default are created dynamically.
+// In this program, the function does not have a static method hence all the variables by default are created dynamically. The variable inside the method is made static.
 
 /* Result of the above code
 
