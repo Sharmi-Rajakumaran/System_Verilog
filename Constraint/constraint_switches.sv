@@ -19,3 +19,4 @@ initial
     trans_h. undersize. constraint_mode(1);  // constraint mode enabled - constraint defined in transaction class is activated
     success = trans_h.randomize(); // Randomization checked
   end
+
