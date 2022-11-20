@@ -11,7 +11,7 @@ module test;
       
       repeat(2)
         begin
-          t_h.randomize() with {addr < 15;};
+          t_h.randomize() with {addr < 15;}; // inline constraint
           $display("\t addr = %0d", t_h.addr);
         end
     end
@@ -19,3 +19,5 @@ endmodule: test
 
 // Even though both the constraints are contradictry since the constraint is defined as soft constraint using the keyword soft
 // the randomization will be successful
+// only the inline constraint is considered the class constraint is ignored
+// If there is no keyword soft the simulation will be unsuccessful
