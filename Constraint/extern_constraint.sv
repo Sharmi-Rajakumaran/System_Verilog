@@ -4,7 +4,8 @@ class packet;
 endclass: packet
 
 constraint packet :: valid_addr{addr<10;} // outside the class the constraint definition is made hence called extern constraints
-
+// It says that the valid_addr property of class packet is randomized with addr <10
+// It is similar to the methods
 // :: is the scope resolution operator
 
 module test;
