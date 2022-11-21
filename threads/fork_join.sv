@@ -17,3 +17,7 @@ module test();
         
         $display("exit is at time t = %t", $time);
         endmodule
+
+        
+        // Fork join - executes all the child thread before the parent thread is executed
+        // Total delay = max delay of the threads + parent thread delay
